@@ -112,7 +112,7 @@ With this access token you can build your header to do your web request against 
 # Get access token for Graph API
 $graphApiToken = Get-GraphAPIAccessToken
 
-# Create header for using Graph API and Yammer REST API
+# Create header for using Graph API
 $graphApiHeader = @{ Authorization = "Bearer $graphApiToken" }
 
 # Example web request
