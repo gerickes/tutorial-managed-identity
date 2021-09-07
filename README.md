@@ -23,7 +23,7 @@ Your Automation Account can now use the created identity, which is registered in
 
 To grant the permission you need for your Azure Automation you have to run the following PowerShell script on your local workstation. By running this script a prompt will apear to ask for your Azure AD credentials. To grant the permission you need administrative permission e.g. **Global Administrator**.
 
-To assign the granted permission to the correct **Managed Identity** please paste the **Obkect ID** in the second line of this script.
+To assign the granted permission to the correct **Managed Identity** please paste the **Object ID** in the second line of this script.
 
 In this case you will grant the following permission to the **Managed Identity**:
 
